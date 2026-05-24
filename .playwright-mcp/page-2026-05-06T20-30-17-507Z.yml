@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - img [ref=e41] [cursor=pointer]
+    - generic:
+      - generic:
+        - paragraph:
+          - generic:
+            - strong: Onde você está agora?
+      - generic:
+        - paragraph: Qual sua situação atual com renda online?
+    - generic [ref=e47]:
+      - button "👻Criador de conteúdo sem aparecer" [ref=e49] [cursor=pointer]:
+        - paragraph [ref=e53]: 👻Criador de conteúdo sem aparecer
+      - button "🧑‍🏫 Sou Influencer/Expert de conteúdo" [ref=e55] [cursor=pointer]:
+        - paragraph [ref=e59]: 🧑‍🏫 Sou Influencer/Expert de conteúdo
+      - button "✅ Já vendo na internet (infoprodutos, e-commerce, etc)" [ref=e61] [cursor=pointer]:
+        - paragraph [ref=e65]: ✅ Já vendo na internet (infoprodutos, e-commerce, etc)
+      - button "🎯 Quero começar, mas sem aparecer" [ref=e67] [cursor=pointer]:
+        - paragraph [ref=e71]: 🎯 Quero começar, mas sem aparecer
+    - link "Feito com o XQuiz" [ref=e37] [cursor=pointer]:
+      - /url: https://xquiz.com.br?utm_source=xquiz&utm_medium=viewer&utm_campaign=brand
+  - alert [ref=e38]

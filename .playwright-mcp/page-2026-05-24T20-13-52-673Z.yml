@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e8]: 1/21
+    - generic [ref=e11]:
+      - generic [ref=e12]: "@gustagoat.ia"
+      - heading "CREA YA TU INFLUENCER DE IA QUE TRABAJA POR TI 24H Y VENDE TODOS LOS DÍAS, SIN QUE TENGAS QUE APARECER." [level=1] [ref=e13]
+      - paragraph [ref=e14]: Así nunca hayas usado IA, hoy ya es posible crear contenido todos los días sin aparecer y sin saber editar 👇
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - img "Influencer de IA 1" [ref=e18]
+          - img "Influencer de IA 2" [ref=e20]
+          - img "Influencer de IA 3" [ref=e22]
+        - button "Atrás" [ref=e23]:
+          - img [ref=e24]
+        - button "Siguiente" [ref=e26]:
+          - img [ref=e27]
+        - generic [ref=e29]:
+          - button "Ir a la imagen 1" [ref=e30]
+          - button "Ir a la imagen 2" [ref=e31]
+          - button "Ir a la imagen 3" [ref=e32]
+      - paragraph [ref=e34]: Mientras lees esto, hay gente ganando plata con influencers de IA. La diferencia es que ellas ya arrancaron.
+      - button "Quiero ver cómo funciona" [ref=e35]
+  - button "Open Next.js Dev Tools" [ref=e41] [cursor=pointer]:
+    - img [ref=e42]
+  - alert [ref=e45]

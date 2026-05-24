@@ -1,0 +1,16 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - img [ref=e74] [cursor=pointer]
+    - generic:
+      - generic:
+        - paragraph:
+          - generic:
+            - strong: A Revolução Que Está Mudando Tudo
+      - generic:
+        - paragraph: Veja como pessoas comuns estão faturando em dólar com influencers que não existem
+    - paragraph [ref=e87]: E você nem precisa aparecer ou investir em equipamentos
+    - button "Quero Saber Mais →" [ref=e91] [cursor=pointer]:
+      - paragraph [ref=e92]: Quero Saber Mais →
+    - link "Feito com o XQuiz" [ref=e37] [cursor=pointer]:
+      - /url: https://xquiz.com.br?utm_source=xquiz&utm_medium=viewer&utm_campaign=brand
+  - alert [ref=e38]

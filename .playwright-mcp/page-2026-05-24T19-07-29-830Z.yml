@@ -1,0 +1,15 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e8]: 4/15
+    - button "Voltar" [ref=e46]:
+      - img [ref=e47]
+    - generic [ref=e114]:
+      - heading "💵 Esto Ya Es Realidad En Todo El Mundo 💰" [level=1] [ref=e115]
+      - paragraph [ref=e116]: También puedes crear Influencers de IA para promocionar y viralizar tu marca o empresa, o monetizar en TikTok Shop y en la red de afiliados de cualquier nicho.
+      - generic [ref=e117]:
+        - img "Depoimento 1" [ref=e119]
+        - img "Depoimento 2" [ref=e121]
+      - button "Continuar →" [ref=e122]
+  - button "Open Next.js Dev Tools" [ref=e41] [cursor=pointer]:
+    - img [ref=e42]
+  - alert [ref=e45]

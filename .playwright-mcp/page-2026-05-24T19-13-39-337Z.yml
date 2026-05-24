@@ -1,0 +1,21 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e8]: 6/16
+    - button "Voltar" [ref=e46]:
+      - img [ref=e47]
+    - generic [ref=e106]:
+      - 'heading "Atención: Contenido Estratégico Adulto" [level=1] [ref=e107]'
+      - paragraph [ref=e108]: Elegiste la estrategia más lucrativa del mercado de influencers IA.
+      - img "Contenido adulto estratégico" [ref=e110]
+      - paragraph [ref=e111]: Influencer AI es el único entrenamiento que enseña las IAs secretas para crear contenido adulto profesional y las estrategias exactas para monetizar en plataformas como OnlyFans y FanVue.
+      - generic [ref=e112]:
+        - paragraph [ref=e113]: "⚠️ En las próximas pantallas verás:"
+        - list [ref=e114]:
+          - listitem [ref=e115]: 🍌 Ejemplos reales de contenido +18 hechos con IA
+          - listitem [ref=e116]: 💰 Cómo esto genera US$ 4k-10k/mes
+          - listitem [ref=e117]: 💡 El paso a paso completo de la estrategia
+        - paragraph [ref=e118]: ¿Tienes +18 años y deseas continuar?
+      - button "✅ Sí, quiero ver la estrategia completa" [ref=e119]
+  - button "Open Next.js Dev Tools" [ref=e41] [cursor=pointer]:
+    - img [ref=e42]
+  - alert [ref=e45]

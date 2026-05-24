@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e8]: 15/15
+    - button "Voltar" [ref=e46]:
+      - img [ref=e47]
+    - generic [ref=e129]:
+      - generic [ref=e132]:
+        - generic [ref=e133]: 🔥
+        - generic [ref=e134]:
+          - paragraph [ref=e135]: Oferta de Lançamento
+          - paragraph [ref=e136]:
+            - text: Restam
+            - generic [ref=e137]: "31"
+            - text: vagas
+          - paragraph [ref=e138]: com desconto de lançamento HOJE
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - img [ref=e141]
+          - heading "Oferta de lançamento" [level=3] [ref=e144]
+        - paragraph [ref=e145]: Acesso imediato ao método + bônus exclusivos desta turma.
+      - heading "Quanto custaria fazer isso sozinho?" [level=2] [ref=e146]
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - generic [ref=e149]: Contratar modelo profissional
+          - generic [ref=e150]: R$500
+        - generic [ref=e151]:
+          - generic [ref=e152]: Editor de vídeo freelancer
+          - generic [ref=e153]: R$300
+        - generic [ref=e154]:
+          - generic [ref=e155]: Produção de conteúdo
+          - generic [ref=e156]: R$400
+        - generic [ref=e157]:
+          - generic [ref=e158]: Ferramentas e softwares
+          - generic [ref=e159]: R$200
+      - generic [ref=e163]: OU
+      - generic [ref=e164]: 🚀 OFERTA EXCLUSIVA DE LANÇAMENTO
+      - heading "O que você vai receber?" [level=2] [ref=e165]
+      - img "Reportagem Exame" [ref=e167]
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - img [ref=e171]
+          - paragraph [ref=e174]:
+            - generic [ref=e175]: "Treinamento Completo:"
+            - text: Crie sua Influenciadora de IA do zero
+        - generic [ref=e176]:
+          - img [ref=e178]
+          - paragraph [ref=e181]:
+            - generic [ref=e182]: "Conteúdo Ilimitado:"
+            - text: Aprenda a criar assets para centenas de produtos
+        - generic [ref=e183]:
+          - img [ref=e185]
+          - paragraph [ref=e188]:
+            - generic [ref=e189]: "Estratégia de Vendas:"
+            - text: Rotina de postagens para TikTok Shop e Shopee
+      - generic [ref=e190]:
+        - generic [ref=e193]: R$147
+        - generic [ref=e194]:
+          - generic [ref=e195]: 6x de
+          - generic [ref=e196]: R$8,90
+        - generic [ref=e197]: ou R$47,90 à vista
+        - paragraph [ref=e198]: Oferta exclusiva de lançamento por tempo limitado.
+      - link "QUERO VENDER NA SHOPEE SEM APARECER" [ref=e199] [cursor=pointer]:
+        - /url: https://pay.hub.la/K9i48YP1IZcxEKfw1AuW?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=
+      - heading "Veja o que os alunos estão dizendo" [level=2] [ref=e200]
+      - generic [ref=e201]:
+        - img "Depoimento 1" [ref=e203]
+        - img "Depoimento 2" [ref=e205]
+        - img "Depoimento 3" [ref=e207]
+      - generic [ref=e208]:
+        - img [ref=e210]
+        - generic [ref=e213]:
+          - heading "Garantia de satisfação" [level=4] [ref=e214]
+          - paragraph [ref=e215]: Compra 100% segura com garantia de satisfação. Se não gostar, devolvemos seu dinheiro em até 7 dias.
+      - heading "Dúvidas Frequentes" [level=2] [ref=e216]
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - button "O que exatamente é esse treinamento?" [ref=e219]:
+            - generic [ref=e220]: O que exatamente é esse treinamento?
+            - img [ref=e221]
+          - paragraph [ref=e223]: É um treinamento completo do zero que ensina, passo a passo, como criar Influencers de IA realistas, gerar conteúdos e vídeos prontos e usar isso para viralizar e monetizar. É método prático, não teoria.
+        - generic [ref=e224]:
+          - button "Preciso gastar com IA para criar minha Influencer?" [ref=e225]:
+            - generic [ref=e226]: Preciso gastar com IA para criar minha Influencer?
+            - img [ref=e227]
+          - paragraph [ref=e229]: Não. Você não precisa gastar nada para criar sua Influencer de IA. Mostramos como usar IAs gratuitas para gerar sua Influencer do zero e, além disso, apresentamos ferramentas profissionais para quem quiser escalar depois. Você começa sem investimento e evolui quando fizer sentido.
+        - generic [ref=e230]:
+          - button "Em quanto tempo eu crio minha Influencer de IA?" [ref=e231]:
+            - generic [ref=e232]: Em quanto tempo eu crio minha Influencer de IA?
+            - img [ref=e233]
+          - paragraph [ref=e235]: Em menos de 10 minutos, você já sai com sua Influencer de IA criada e pronta para uso. Nada de semanas estudando. É resultado imediato.
+        - generic [ref=e236]:
+          - button "Preciso saber algo sobre IA, edição ou marketing?" [ref=e237]:
+            - generic [ref=e238]: Preciso saber algo sobre IA, edição ou marketing?
+            - img [ref=e239]
+          - paragraph [ref=e241]: Não. O treinamento foi criado para quem está começando do absoluto zero. Sem programação, sem edição avançada e sem linguagem técnica. Você só segue, aplica e executa.
+  - button "Open Next.js Dev Tools" [ref=e41] [cursor=pointer]:
+    - img [ref=e42]
+  - alert [ref=e45]

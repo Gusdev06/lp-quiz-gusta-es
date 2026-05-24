@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e8]: 5/15
+    - button "Voltar" [ref=e46]:
+      - img [ref=e47]
+    - generic [ref=e123]:
+      - heading "Puedes generar imágenes de tu influencer con cualquier ropa, en cualquier escenario, manteniendo siempre 100% de consistencia en el rostro." [level=1] [ref=e124]
+      - paragraph [ref=e125]: Así como en el ejemplo de Luna 👇
+      - img "Ejemplo de consistencia de rostro - Luna" [ref=e127]
+      - button "Quiero crear mi Influencer de IA →" [ref=e128]
+  - button "Open Next.js Dev Tools" [ref=e41] [cursor=pointer]:
+    - img [ref=e42]
+  - alert [ref=e45]

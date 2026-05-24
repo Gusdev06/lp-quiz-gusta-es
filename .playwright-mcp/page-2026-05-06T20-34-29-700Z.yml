@@ -1,0 +1,20 @@
+- generic [active] [ref=e1]:
+  - main [ref=e4]:
+    - generic:
+      - generic:
+        - paragraph:
+          - generic:
+            - strong: Descubra Sua Melhor Estratégia com IA
+      - generic:
+        - paragraph: Responda 4 perguntas rápidas para personalizar sua jornada
+    - paragraph [ref=e13]: Qual dessas opções descreve melhor você?
+    - generic [ref=e14]:
+      - button "👨 Homem" [ref=e16] [cursor=pointer]:
+        - paragraph [ref=e21]: 👨 Homem
+      - button "👩 Mulher" [ref=e23] [cursor=pointer]:
+        - paragraph [ref=e28]: 👩 Mulher
+      - button "🤷 Prefiro não informar" [ref=e30] [cursor=pointer]:
+        - paragraph [ref=e35]: 🤷 Prefiro não informar
+    - link "Feito com o XQuiz" [ref=e37] [cursor=pointer]:
+      - /url: https://xquiz.com.br?utm_source=xquiz&utm_medium=viewer&utm_campaign=brand
+  - alert [ref=e38]

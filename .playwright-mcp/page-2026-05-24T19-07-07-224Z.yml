@@ -1,0 +1,12 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e8]: 3/15
+    - button "Voltar" [ref=e46]:
+      - img [ref=e47]
+    - generic [ref=e106]:
+      - heading "Esta mujer no existe, la creé en menos de 2 minutos y ya está vendiendo por mí como afiliada." [level=1] [ref=e107]
+      - paragraph [ref=e108]: Es más fácil de lo que imaginas 👇
+      - button "Quiero ver más →" [ref=e113]
+  - button "Open Next.js Dev Tools" [ref=e41] [cursor=pointer]:
+    - img [ref=e42]
+  - alert [ref=e45]
