@@ -259,7 +259,7 @@ export function ScreenOferta({ onNext }: ScreenOfertaProps) {
           </div>
 
           <a
-            href="https://pay.hotmart.com/E105912753W?off=w1m723ny&checkoutMode=10"
+            href="https://pay.hotmart.com/E105912753W?off=lytny95c&checkoutMode=10"
             className="w-full py-4 px-6 bg-[#008A33] hover:bg-[#007029] text-white text-[14px] font-bold tracking-wide rounded-2xl shadow-[0_10px_35px_rgba(0,161,60,0.3)] transition-all hover:-translate-y-1 hover:shadow-[0_15px_45px_rgba(0,161,60,0.4)] flex items-center justify-center text-center relative z-10"
           >
             QUIERO EL PLAN PREMIUM
