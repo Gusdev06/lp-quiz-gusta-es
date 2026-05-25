@@ -214,48 +214,104 @@ export function ScreenOferta({ onNext }: ScreenOfertaProps) {
         ))}
       </div>
 
-      {/* BOX DO PREÇO FINAL */}
-      <div className="w-full bg-white rounded-3xl border border-gray-100 shadow-[0_8px_40px_rgba(0,0,0,0.04)] p-8 flex flex-col items-center mb-6 relative overflow-hidden">
+      {/* PLANOS — Premium e Básico */}
+      <div className="w-full flex flex-col gap-4 mb-6">
 
-        {/* Glow de fundo */}
-        <div className="absolute top-0 right-0 w-[150px] h-[150px] bg-[#D9FF02]/10 blur-3xl rounded-full"></div>
-        <div className="absolute bottom-0 left-0 w-[150px] h-[150px] bg-[#00A13C]/5 blur-3xl rounded-full"></div>
+        {/* PLANO PREMIUM */}
+        <div className="w-full bg-white rounded-3xl border-2 border-[#00A13C] shadow-[0_8px_40px_rgba(0,161,60,0.12)] p-7 flex flex-col items-center relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-[150px] h-[150px] bg-[#D9FF02]/10 blur-3xl rounded-full"></div>
+          <div className="absolute bottom-0 left-0 w-[150px] h-[150px] bg-[#00A13C]/5 blur-3xl rounded-full"></div>
 
-        <span className="text-gray-400 font-medium line-through mb-2 text-sm relative z-10">De US$ 97</span>
+          <div className="absolute top-0 right-0 bg-[#00A13C] text-white text-[10px] font-bold px-3 py-1 rounded-bl-xl tracking-wider z-10">
+            MÁS POPULAR
+          </div>
 
-        <div className="flex items-baseline gap-2 mb-2 relative z-10 whitespace-nowrap">
-          <span className="text-xl md:text-2xl font-bold text-black">6x de</span>
-          <span className="text-5xl md:text-6xl font-sans font-black tracking-[-0.04em] text-[#00A13C] leading-none">
-            US$ 5,80
+          <span className="text-[#00A13C] font-bold text-xs tracking-widest mb-2 relative z-10">PLAN PREMIUM</span>
+
+          <div className="flex items-baseline gap-1 mb-2 relative z-10 whitespace-nowrap">
+            <span className="text-2xl font-bold text-black">US$</span>
+            <span className="text-5xl md:text-6xl font-sans font-black tracking-[-0.04em] text-[#00A13C] leading-none">
+              11,99
+            </span>
+          </div>
+
+          <span className="text-gray-600 font-medium text-sm mb-5 relative z-10">
+            Acceso completo + bonos exclusivos
           </span>
+
+          {/* Benefícios PREMIUM */}
+          <div className="w-full flex flex-col gap-3 mb-6 relative z-10">
+            {[
+              "Entrenamiento completo paso a paso",
+              "Crea tu Influencer de IA hiperrealista",
+              "Acceso a IAs premium sin censura (+18)",
+              "Estrategia de monetización US$ 4k-20k/mes",
+              "Plantillas de contenido listas para usar",
+              "Comunidad VIP y soporte prioritario",
+              "Bonos exclusivos de lanzamiento",
+              "Actualizaciones de por vida",
+            ].map((b, i) => (
+              <div key={i} className="flex items-start gap-2.5">
+                <CheckCircle2 className="w-5 h-5 text-[#00A13C] fill-[#00A13C]/10 shrink-0 mt-0.5" />
+                <span className="text-gray-800 text-[14px] leading-snug text-left">{b}</span>
+              </div>
+            ))}
+          </div>
+
+          <a
+            href="https://pay.hotmart.com/E105912753W?off=w1m723ny&checkoutMode=10"
+            className="w-full py-4 px-6 bg-[#008A33] hover:bg-[#007029] text-white text-[14px] font-bold tracking-wide rounded-2xl shadow-[0_10px_35px_rgba(0,161,60,0.3)] transition-all hover:-translate-y-1 hover:shadow-[0_15px_45px_rgba(0,161,60,0.4)] flex items-center justify-center text-center relative z-10"
+          >
+            QUIERO EL PLAN PREMIUM
+          </a>
         </div>
 
-        <span className="text-gray-600 font-medium text-sm mb-6 relative z-10 whitespace-nowrap">
-          o US$ 29 al contado
-        </span>
+        {/* PLANO BÁSICO */}
+        <div className="w-full bg-white rounded-3xl border border-gray-200 shadow-[0_8px_40px_rgba(0,0,0,0.04)] p-7 flex flex-col items-center relative overflow-hidden">
 
-        <p className="text-gray-400 text-xs text-center relative z-10">
+          <span className="text-gray-500 font-bold text-xs tracking-widest mb-2">PLAN BÁSICO</span>
+
+          <div className="flex items-baseline gap-1 mb-2 whitespace-nowrap">
+            <span className="text-2xl font-bold text-black">US$</span>
+            <span className="text-5xl md:text-6xl font-sans font-black tracking-[-0.04em] text-black leading-none">
+              3,99
+            </span>
+          </div>
+
+          <span className="text-gray-600 font-medium text-sm mb-5">
+            Acceso al método esencial
+          </span>
+
+          {/* Benefícios BÁSICO */}
+          <div className="w-full flex flex-col gap-3 mb-6">
+            {[
+              "Entrenamiento base paso a paso",
+              "Crea tu Influencer de IA desde cero",
+              "Acceso a IAs gratuitas recomendadas",
+              "Guía inicial de monetización",
+              "Soporte por email estándar",
+            ].map((b, i) => (
+              <div key={i} className="flex items-start gap-2.5">
+                <Check className="w-5 h-5 text-gray-500 shrink-0 mt-0.5" />
+                <span className="text-gray-700 text-[14px] leading-snug text-left">{b}</span>
+              </div>
+            ))}
+          </div>
+
+          <a
+            href="https://pay.hotmart.com/E105912753W?off=w1m723ny&checkoutMode=10"
+            className="w-full py-4 px-6 bg-white hover:bg-gray-50 text-black text-[14px] font-bold tracking-wide rounded-2xl border-2 border-gray-200 transition-all hover:-translate-y-1 flex items-center justify-center text-center"
+          >
+            QUIERO EL PLAN BÁSICO
+          </a>
+        </div>
+
+        <p className="text-gray-400 text-xs text-center mt-2">
           Oferta exclusiva de lanzamiento por tiempo limitado.
         </p>
       </div>
 
-      {/* BOTÃO E CHECKOUT CTA — profile-specific */}
-      {(() => {
-        const ctaByProfile: Record<string, string> = {
-          "shopee-tiktok": "QUIERO CREAR MI INFLUENCER DE IA AHORA",
-          "vender-servicos": "QUIERO COBRAR US$ 400+ POR ESTE SERVICIO",
-          "fechar-parcerias": "QUIERO MI INFLUENCER DE IA AHORA",
-        }
-        const ctaText = ctaByProfile[profileType] || "QUIERO MI INFLUENCER DE IA AHORA"
-        return (
-          <a
-            href="https://pay.hotmart.com/E105912753W?off=lytny95c&checkoutMode=10"
-            className="w-full py-5 px-6 bg-[#008A33] hover:bg-[#007029] text-white text-[15px] font-bold tracking-wide rounded-2xl shadow-[0_10px_35px_rgba(0,161,60,0.3)] transition-all hover:-translate-y-1 hover:shadow-[0_15px_45px_rgba(0,161,60,0.4)] flex items-center justify-center mb-12 text-center"
-          >
-            {ctaText}
-          </a>
-        )
-      })()}
+      <div className="mb-12"></div>
 
       {/* 5. Garantia */}
       <div className="w-full flex flex-col items-center mb-16 px-2">
