@@ -92,6 +92,7 @@ export default function RootLayout({
               document,'script','https://connect.facebook.net/en_US/fbevents.js');
               fbq('init', '1223791793200733');
               fbq('track', 'PageView');
+              fbq('track', 'ViewContent', { content_name: 'Influencer IA Quiz', content_type: 'product', value: 6.99, currency: 'USD' });
             `,
           }}
         />
@@ -100,6 +101,22 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=1223791793200733&ev=PageView&noscript=1"
           />
         </noscript>
+
+        {/* UTMify Pixel */}
+        <Script
+          id="utmify-pixel"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.pixelId = "6a0e5c0bd7bcfee27ced108d";
+              var a = document.createElement("script");
+              a.setAttribute("async", "");
+              a.setAttribute("defer", "");
+              a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+              document.head.appendChild(a);
+            `,
+          }}
+        />
 
         {/* Google Analytics 4 (GA4) */}
         <Script
