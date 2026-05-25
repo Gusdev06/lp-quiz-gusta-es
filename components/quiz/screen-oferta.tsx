@@ -249,7 +249,7 @@ export function ScreenOferta({ onNext }: ScreenOfertaProps) {
         const ctaText = ctaByProfile[profileType] || "QUIERO MI INFLUENCER DE IA AHORA"
         return (
           <a
-            href="https://pay.hotmart.com/E105912753W?off=kjhcf3pi&checkoutMode=10&bid=1779327745978"
+            href="https://pay.hotmart.com/E105912753W?off=lytny95c&checkoutMode=10"
             className="w-full py-5 px-6 bg-[#008A33] hover:bg-[#007029] text-white text-[15px] font-bold tracking-wide rounded-2xl shadow-[0_10px_35px_rgba(0,161,60,0.3)] transition-all hover:-translate-y-1 hover:shadow-[0_15px_45px_rgba(0,161,60,0.4)] flex items-center justify-center mb-12 text-center"
           >
             {ctaText}
